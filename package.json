@@ -1,0 +1,22 @@
+{
+    "name": "discord-bot-template",
+    "version": "1.0.0",
+    "description": "A template for v13 discord bot",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js"
+    },
+    "repository": "https://github.com/erencfc/discord-bot-template",
+    "license": "MIT",
+    "dependencies": {
+        "ascii-table": "^0.0.9",
+        "chalk": "4.1.0",
+        "discord.js": "^13.6.0",
+        "dotenv": "^16.0.0",
+        "mkdirp": "^1.0.4"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.15"
+    }
+}
